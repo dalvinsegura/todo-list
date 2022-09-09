@@ -14,7 +14,7 @@ export default function Navbar() {
           <Toolbar>
             <Typography variant="h6" sx={{flexGrow: 1}}>
                 <Link style={{textDecoration:'none', color: '#eeee'}} to="/">
-                PERN Stack
+                PERN Stack <Typography style={{fontStyle: "italic", fontSize: ".9rem", display: "inline"}}>by Dalvin Segura</Typography>
                 </Link>
             </Typography>
 
